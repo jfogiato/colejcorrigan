@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CJC</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="bg-orange-600 text-white flex flex-col items-center justify-center min-h-screen p-6">
+    <div class="text-center fade-in">
+      <h1 class="text-4xl font-bold mb-4">Hey Cole!</h1>
+
+      <p class="text-lg mb-8 opacity-80">
+        I got you a domain name (this one + colejcorrigan.pro). I paid for it for a year. After that, it's all yours.
+      </p>
+
+      <button
+        id="reveal-btn"
+        class="px-6 py-3 bg-orange-200 text-black font-semibold rounded hover:bg-orange-400 transition-all"
+      >
+        Click me!
+      </button>
+
+      <div id="message" class="hidden mt-8 text-3xl font-bold"></div>
+      
+      <!-- Photo Gallery -->
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <img src="/assets/images/nye.jpeg" alt="Joe and Cole on NYE" class="rounded-lg shadow-lg w-full h-80 object-cover" />
+        <img src="/assets/images/dad.jpeg" alt="Joe and Cole's dad at Cole's bachelor party" class="rounded-lg shadow-lg w-full h-80 object-cover" />
+        <img src="/assets/images/grandma.jpeg" alt="Cole dressed as a church grandma for halloween" class="rounded-lg shadow-lg w-full h-80 object-cover" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
