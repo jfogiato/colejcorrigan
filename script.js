@@ -3,7 +3,7 @@ document.getElementById("reveal-btn").addEventListener("click", () => {
 
   // Fire confetti
   launchConfetti();
-  msg.innerHTML = "Will you be in my wedding party?";
+  msg.innerHTML = "Will you be my best man!?";
   msg.classList.remove("hidden");
 
   // Optional: hide button after click
